@@ -1,14 +1,14 @@
 import { useState } from 'react'
 
 import './App.css'
-import UserCV from './components/UserCV'
+import Profile from "./components/Profile"
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <div className="App">
-<UserCV/>
+<Profile/>
     
     </div>
   )

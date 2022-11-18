@@ -1,11 +1,9 @@
-import React from 'react'
+import React from 'react';
+import styles from "../assets/styles/PersonalInfo.module.css"
 
 const PersonalInfo = () => {
   return (
-    <div>
-        <h5>Name:Sahira Mammadova</h5>
-        <h5>Baku</h5>
-    </div>
+    <div className={styles.personalinfo}>PersonalInfo</div>
   )
 }
 
