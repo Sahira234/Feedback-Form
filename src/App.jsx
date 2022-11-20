@@ -2,13 +2,13 @@ import { useState } from 'react'
 
 import './App.css'
 import Form from './components/Form'
-import Profile from "./components/Profile"
+import UserCV from './components/UserCV'
 
 function App() {
 
   return (
     <div className="App">
-{/* <Profile/> */}
+<UserCV/>
 <Form/>
     
     </div>
