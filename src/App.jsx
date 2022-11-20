@@ -1,14 +1,15 @@
 import { useState } from 'react'
 
 import './App.css'
+import Form from './components/Form'
 import Profile from "./components/Profile"
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className="App">
-<Profile/>
+{/* <Profile/> */}
+<Form/>
     
     </div>
   )
