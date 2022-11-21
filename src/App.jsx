@@ -5,6 +5,7 @@ import Form from './components/Form'
 import UserCV from './components/UserCV'
 import UserLogin from './components/UserLogin';
 import Dice from "./components/Dice"
+import Compo from './components/Compo';
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
 <Dice/>
 <Dice/>
 </div>
+<Compo/>
     
     </div>
   )
